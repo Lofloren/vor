@@ -23,6 +23,34 @@
   color: #61dafb;
 }
 
+.MenuLink{
+ 
+  position: absolute;
+  width: 20%;
+  color: antiquewhite;
+  z-index: 1;
+  margin-top: 10 px;
+  margin-left: 40%;
+  font-size: xx-large;
+  text-align: center;
+  
+
+}
+
+.spacing{
+
+  padding-top: 5%;
+}
+
+
+
+#particles canvas{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
