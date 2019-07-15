@@ -23,8 +23,10 @@ function Privacy() {
   <p>Your privacy is important to me. It is my policy to respect your privacy regarding any information I may collect from you through my games.</p>
   <p>I will only ask for personal information when I truly need it to provide a service to you. I collect it by fair and lawful means, with your knowledge and consent. I will also let you know why I'm collecting it and how it will be used.</p>
   <p>I only retain collected information for as long as necessary to provide you with your requested service. What data I store, I’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorised access, disclosure, copying, use or modification.</p>
-  <p>I don’t share any personally identifying information publicly or with any third-parties, except when required to by law.</p>
+  <p>I do not knowingly collect personal information from children under the minimum age limit that is prescribed by the legislation in the individual jurisdictions. If you are a child, please do not send me any personal information, including your name, address, telephone number, email address or any other personal information. If such personal information have been collected without my knowledge I will immediately take  action to stop such processing and promptly delete any such information </p>
+  
   <p>My games link to external services that are not operated by me. Please be aware that I have no control over the content and practices of these services, and cannot accept responsibility or liability for their respective privacy policies.</p>
+  <p>I don’t share any personally identifying information publicly or with any third-parties, except when required to by law.</p>
   <p> </p>
   <p style={{textDecoration: 'underline'}}> Unity Ads</p>
   <p/>
@@ -42,7 +44,7 @@ function Privacy() {
   <p>Your continued use of my games will be regarded as acceptance of my practices around privacy and personal information. If you have any questions about how I handle user data and personal information, feel free to contact me, Alexander Motch, at: </p>
   <p> alexandermotch@gmail.com </p>
 
-  <p>This policy is effective as of 14 July 2019.</p>
+  <p>This policy is effective as of 15 July 2019.</p>
   <p/>
 
 
