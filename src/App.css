@@ -42,7 +42,7 @@
 .spacing{
 
 
-  padding-bottom: 5%;
+  padding-bottom: 5ch
 }
 
 
@@ -52,7 +52,10 @@
   width: 100%;
   height: 100%;
   z-index: -1;
+  opacity: 100%;
+  background-color:blueviolet;
 }
+
 
 @keyframes App-logo-spin {
   from {
