@@ -3,19 +3,20 @@ import Particles from 'react-particles-js';
 import posed from 'react-pose';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
-
+import logo from './giphy.gif'
 
 
 function Index() {
 
 return ( <div style={{color: 'white', textAlign : 'center', padding: '5%'}}>
-  Coming soon...
+ <img src={logo}></img>
+ <p> Soon...</p>
   </div>)
   
   
 }
 
-function Privacy() {
+function privacy() {
   return (
   <div style={{color: 'white', textAlign : 'center', padding: '5%'}}>
   <h2>Privacy Policy</h2>
@@ -56,119 +57,31 @@ function Privacy() {
 function App() {
 
   return (
-   
+   <div style={{backgroundColor: 'black'}}>
     <Router>
        
                 
-      <div id="particles">
-      <Particles
-                params={{
-                    "particles": {
-                        "line_linked": {
-                                    "color":"#FFFFFF"
-                                    },
-
-                                    "number": {
-                                      "value": 10,
-                                      "density": {
-                                        "enable": false,
-                                        "value_area": 800
-                                      }
-                                    },
-                        "size": {
-                            "value": 1
-                        },
-                        "move": {
-                          "enable": true,
-                          "speed": 12,
-                          "direction": "none",
-                          "random": false,
-                          "straight": false,
-                          "out_mode": "out",
-                          "bounce": true,
-                          "attract": {
-                            "enable": true,
-                            "rotateX": 600,
-                            "rotateY": 1200
-                          }
-                        },
-                        "polygon": {
-                          "nb_sides": 2
-                        },
-                    },
-                    
-                    "interactivity": {
-                      "detect_on": "canvas",
-                      "events": {
-                        "onhover": {
-                          "enable": true,
-                          "mode": ["repulse", "bubble"]
-                        },
-                        "onclick": {
-                          "enable": false,
-                          "mode": "push"
-                        },
-                        "resize": true
-                      },
-                      "modes": {
-                        "grab": {
-                          "distance": 800,
-                          "line_linked": {
-                            "opacity": 0
-                          }
-                        },
-                        "bubble": {
-                          "distance": 400,
-                          "size": 5,
-                          "duration": 5,
-                          "opacity": 0.5,
-                          "speed": 3,
-                          "line_linked": {
-                            "opacity": 0
-                          }
-                        },
-                        "repulse": {
-                          "distance": 10,
-                          "duration": 0.2,
-                          "line_linked": {
-                            "opacity": 0
-                          }
-                        },
-                        "push": {
-                          "particles_nb": 4
-                        },
-                        "remove": {
-                          "particles_nb": 2
-                        }
-                      }
-                    }
-                }}
-                style={{
-                        width: '100%',
-                       
-                 }}
-                >
-
-                  </Particles> 
+     
                
         <nav>
                  <div  className="spacing">
               <Link to="/" className="MenuLink">Home</Link>
               </div>
               <div  className="spacing">
-              <Link to="/Privacy/" className="MenuLink">Privacy</Link>
+              <Link to="/privacy/" className="MenuLink">Privacy</Link>
               </div>
          
         </nav>
 
         <Route path="/" exact component={Index} />
-        <Route path="/Privacy" component={Privacy} />
+        <Route path="/privacy" component={privacy} />
         
       
 
-      </div>
+    
       
     </Router>
+    </div>
   );
 }
 
