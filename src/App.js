@@ -45,7 +45,7 @@ function privacy() {
   <p>Your continued use of my games will be regarded as acceptance of my practices around privacy and personal information. If you have any questions about how I handle user data and personal information, feel free to contact me, Alexander Motch, at: </p>
   <p> alexandermotch@gmail.com </p>
 
-  <p>This policy is effective as of 15 July 2019. Changee</p>
+  <p>This policy is effective as of 15 July 2019</p>
   <p/>
 
 
