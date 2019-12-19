@@ -15,14 +15,14 @@ body {
 
 .MenuLink{
  
-  position: absolute;
-  width: 20%;
+ position: absolute;
+  width: 100%;
   color: antiquewhite;
   z-index: 1;
   margin-top: 0;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
 
-  margin-left: 40%;
+  
   font-size: xx-large;
   text-align: center;
   

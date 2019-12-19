@@ -8,8 +8,8 @@ import logo from './giphy.gif'
 
 function Index() {
 
-return ( <div style={{color: 'white', textAlign : 'center', padding: '5%'}}>
- <img src={logo}></img>
+return ( <div style={{position: 'static', color: 'white', textAlign : 'center'}}>
+ <img src={logo}  style={{position: 'static', width: '50%'}}></img>
  <p> Soon...</p>
   </div>)
   
